@@ -1,0 +1,82 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<link rel="apple-touch-icon" sizes="100x100" href="images/logo.png">
+	<link rel="icon" type="image/png" href="images/logo.png">
+	<title>	Keb Folio - 3Wheels</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+	<body class="is-preload">
+
+		<div id="wrapper">
+
+			<header id="header">
+				<a class="logo">3Wheel - Demo</a>
+			</header>
+
+
+			<nav id="nav">
+				<ul class="links">
+					<li><a href="three.html">Grossify</a></li>
+					<li class="active"><a>Demo</a></li>
+					<li><a href="index.html">Home</a></li>
+				</ul>
+
+				<ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/bikash-chintak-dash-581352105/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://www.behance.net/keb42" class="icon brands fa-behance"><span class="label">Behance</span></a></li>
+                    <li><a href="mailto:bikash21bikash@gmail.com" class="icon brands fa-telegram-plane"><span class="label">Telegram</span></a></li>
+                </ul>
+			</nav>
+
+			<div id="main">
+
+				<div class="row gtr-uniform">
+					<div class="col-6 col-12-xsmall">
+						<h3 style="text-align:center"> Prototype </h3>
+						<div id="protoy" class="wrappri">
+							<iframe class="responsive-iframe" name='Right' width="860" height="615" src="https://xd.adobe.com/embed/1401f708-fe3f-468f-67fb-baa2d9dff3bb-6230/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen"></iframe>
+						</div>
+
+					</div>
+					<div class="col-6 col-12-xsmall">
+						<h3 style="text-align:center"> Walk-through </h3>
+						<iframe class="responsive-iframe" name='Right' width="860" height="615" src="https://xd.adobe.com/embed/1401f708-fe3f-468f-67fb-baa2d9dff3bb-6230/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen"></iframe>
+					</div>
+				</div>
+
+			</div>
+
+			<div id="copyright">
+				<ul><li>&copy; Bikash Dash</li><li>Design: kebfourtwo</li></ul>
+			</div>
+
+		</div>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+			<script> 
+				window.onload = function() {
+    var refresherButton = document.getElementById('iframeRefresher');
+    if (refresherButton.addEventListener)
+        refresherButton.addEventListener('click', refreshIframe, false);
+    else
+        refresherButton.attachEvent('click', refreshIframe);
+}
+
+function refreshIframe() {
+    var ifr = document.getElementsByName('Right')[0];
+    ifr.src = ifr.src;
+}
+			</script>
+	</body>
+</html>
